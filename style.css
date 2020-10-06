@@ -1,0 +1,371 @@
+@font-face {
+    font-family: fontface;
+    src: url('./fonts/fontface.ttf');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #474747;
+}
+
+
+/* Navegation */
+
+#nav ul{
+    display: flex;
+
+}
+
+#nav ul li {
+    padding-left: 20px;
+    list-style: none;
+    font-size: 15pt;
+    color: #ffff;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Processador */
+
+#colum-process {
+    background-image: url('./background/background1.png');
+    background-color: #902121;
+    background-size: 100%;
+    height: 380px;
+}
+
+#colum-process img {
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+#colum-process #process-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    font-size: 16pt;
+    color: white;
+
+}
+
+/* Placa Mãe */
+
+#motherboard {
+    background-image: url('./background/background1.png');
+    background-color: #a6a533;
+    max-width: 100%;
+    height: 380px;
+}
+
+#motherboard img {
+    position: relative;
+    left: 70px;
+    top: 65px;
+}
+
+#motherboard #motherboard-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 440px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Memory */
+
+#memory {
+    background-image: url('./background/background1.png');
+    background-color: #2b37a1;
+    max-width: 100%;
+    height: 380px;
+}
+
+#memory img {
+    position: relative;
+    left: 70px;
+    top: 65px;
+}
+
+#memory-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 820px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Armazenamento */
+
+#armazenamento {
+    background-image: url('./background/background1.png');
+    background-color: #8d2ba1;
+    max-width: 100%;
+    height: 380px;
+}
+
+#armazenamento img {
+    position: relative;
+    left: 70px;
+    top: 65px;
+}
+
+#armazenamento-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1200px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* videoboard */
+
+#videoboard {
+    background-image: url('./background/background1.png');
+    background-color: #a1792b;
+    max-width: 100%;
+    height: 380px;
+}
+
+#videoboard img {
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+
+#videoboard-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1580px;
+    font-size: 16pt;
+    color: white;
+}
+
+
+/* fonte */
+
+#fonte {
+    background-image: url('./background/background1.png');
+    background-color: #d10c98;
+    max-width: 100%;
+    height: 380px;
+}
+
+#fonte img {
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+
+#fonte-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1960px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Gabinete */
+
+#gabinete {
+    background-image: url('./background/background1.png');
+    background-color: #0cd16b;
+    max-width: 100%;
+    height: 380px;
+}
+
+#gabinete img {
+    position: relative;
+    left: 70px;
+    top: 45px;
+}
+
+#gabinete-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 2340px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Mouse */
+
+#mouse {
+    background-image: url('./background/background1.png');
+    background-color:#ac9519;
+    max-width: 100%;
+    height: 380px;
+}
+
+#mouse img {
+    position: relative;
+    left: 70px;
+    top: 85px;
+}
+
+#mouse-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Monitor */
+
+#monitor {
+    background-image: url('./background/background1.png');
+    background-color: #0cd16b;
+    max-width: 100%;
+    height: 380px;
+}
+
+#monitor img {
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+
+#monitor-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 440px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Headset */
+
+#headset {
+    background-image: url('./background/background1.png');
+    background-color: #ac1919;
+    max-width: 100%;
+    height: 380px;
+}
+
+#headset img {
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+
+#headset-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 820px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Teclado */
+
+#teclado {
+    background-image: url('./background/background1.png');
+    background-color: #dfa8a8;
+    max-width: 100%;
+    height: 380px;
+}
+
+#teclado img {
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+#teclado-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1200px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Mousepad */
+
+#micro {
+    background-image: url('./background/background1.png');
+    background-color: #699f87;
+    max-width: 100%;
+    height: 380px;
+}
+
+#micro img {
+    position: relative;
+    left: 70px;
+    top: 90px;
+}
+
+#micro-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1580px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* mousepad */
+
+#mousepad {
+    background-image: url('./background/background1.png');
+    background-color: #699f87;
+    max-width: 100%;
+    height: 380px;
+}
+
+#mousepad img {
+    position: relative;
+    left: 70px;
+    top: 120px;
+}
+
+#mousepad-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 1960px;
+    font-size: 16pt;
+    color: white;
+}
+
+/* Cadeira Gamer */
+
+#cadeira {
+    background-image: url('./background/background1.png');
+    background-color: #699f87;
+    max-width: 100%;
+    height: 380px;
+}
+
+#cadeira img {
+    position: relative;
+    left: 70px;
+    top: 55px;
+}
+
+#cadeira-text {
+    font-family: fontface;
+    position: absolute;
+    left: 400px;
+    top: 2350px;
+    font-size: 16pt;
+    color: white;
+}
