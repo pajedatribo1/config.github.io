@@ -9,23 +9,23 @@
 }
 
 #img1 {
-    height: 100px;
+    height: 130px;
 }
 
 #colum-process img {
     position: relative;
-    left: 20px;
+    left: 195px;
     top: 20px;
 }
 
 #colum-process #process-text {
     font-family: fontface;
     position: absolute;
-    left: 150px;
-    top: 50px;
+    left: 0px;
+    top: 200px;
     font-size: 12pt;
     color: white;
-
+    text-align: center;
 }
 
 /* Placa Mãe */
@@ -39,22 +39,24 @@
 
 #motherboard img {
     position: relative;
-    left: 70px;
-    top: 65px;
+    left: 160px;
+    top: 20px;
 }
 
 #img2 {
-    height: 210px;
+    height: 130px;
 }
 
 
 #motherboard #motherboard-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
-    top: 440px;
-    font-size: 16pt;
+    left: 0px;
+    top: 580px;
+    font-size: 12pt;
     color: white;
+    text-align: center;
+    margin: 5px;
 }
 
 /* Memory */
@@ -68,22 +70,24 @@
 
 #memory img {
     position: relative;
-    left: 70px;
-    top: 65px;
+    left: 160px;
+    top: 25px;
 }
 
 #img3 {
-    height: 210px;
+    height: 130px;
 }
 
 
 #memory-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
-    top: 820px;
-    font-size: 16pt;
+    left: 0px;
+    top: 980px;
+    font-size: 12pt;
     color: white;
+    text-align: center;
+    margin: 5px;
 }
 
 /* Armazenamento */
@@ -97,21 +101,23 @@
 
 #armazenamento img {
     position: relative;
-    left: 70px;
-    top: 65px;
+    left: 160px;
+    top: 30px;
 }
 
 #img4 {
-    height: 230px;
+    height: 150px;
 }
 
 #armazenamento-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
-    top: 1200px;
-    font-size: 16pt;
+    left: 0px;
+    top: 1370px;
+    font-size: 12pt;
     color: white;
+    text-align: center;
+    margin: 20px;
 }
 
 /* videoboard */
@@ -125,21 +131,22 @@
 
 #videoboard img {
     position: relative;
-    left: 70px;
-    top: 80px;
+    left: 150px;
+    top: 30px;
 }
 
 #img5 {
-    height: 210px;
+    height: 130px;
 }
 
 #videoboard-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
-    top: 1580px;
-    font-size: 16pt;
+    left: 0px;
+    top: 1730px;
+    font-size: 12pt;
     color: white;
+    text-align: center;
 }
 
 
