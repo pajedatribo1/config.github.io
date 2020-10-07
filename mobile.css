@@ -14,7 +14,7 @@
 
 #colum-process img {
     position: relative;
-    left: 195px;
+    left: 40%;
     top: 20px;
 }
 
@@ -39,7 +39,7 @@
 
 #motherboard img {
     position: relative;
-    left: 160px;
+    left: 34%;
     top: 20px;
 }
 
@@ -70,7 +70,7 @@
 
 #memory img {
     position: relative;
-    left: 160px;
+    left: 35%;
     top: 25px;
 }
 
@@ -101,7 +101,7 @@
 
 #armazenamento img {
     position: relative;
-    left: 160px;
+    left: 33%;
     top: 30px;
 }
 
@@ -131,7 +131,7 @@
 
 #videoboard img {
     position: relative;
-    left: 150px;
+    left: 35%;
     top: 30px;
 }
 
@@ -153,7 +153,7 @@
 /* fonte */
 
 #fonte {
-    background-image: url('./background/background1.png');
+    background-image: url('./background/background11.png');
     background-color: #d10c98;
     max-width: 100%;
     height: 380px;
@@ -161,21 +161,23 @@
 
 #fonte img {
     position: relative;
-    left: 70px;
-    top: 80px;
+    left: 32%;
+    top: 20px;
 }
 
 #img6 {
-    height: 200px;
+    height: 130px;
 }
 
 #fonte-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
-    top: 1960px;
-    font-size: 16pt;
+    left: 0px;
+    top: 2100px;
+    font-size: 12pt;
     color: white;
+    text-align: center;
+    margin: 5%;
 }
 
 /* Gabinete */
@@ -200,9 +202,9 @@
 #gabinete-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
+    left: 0px;
     top: 2340px;
-    font-size: 16pt;
+    font-size: 12pt;
     color: white;
 }
 
@@ -228,9 +230,9 @@
 #mouse-text {
     font-family: fontface;
     position: absolute;
-    left: 400px;
+    left: 0px;
     top: 50px;
-    font-size: 16pt;
+    font-size: 12pt;
     color: white;
 }
 
