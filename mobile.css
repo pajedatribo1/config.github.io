@@ -20,9 +20,9 @@
 
 #colum-process #process-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 200px;
+    top: 30px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -50,9 +50,9 @@
 
 #motherboard #motherboard-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 580px;
+    top: 25px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -81,9 +81,9 @@
 
 #memory-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 980px;
+    top: 27px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -111,9 +111,9 @@
 
 #armazenamento-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 1370px;
+    top: 25px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -141,9 +141,9 @@
 
 #videoboard-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 1730px;
+    top: 35px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -153,7 +153,7 @@
 /* fonte */
 
 #fonte {
-    background-image: url('./background/background11.png');
+    background-image: url('./background/background1.png');
     background-color: #d10c98;
     max-width: 100%;
     height: 380px;
@@ -171,9 +171,9 @@
 
 #fonte-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 2100px;
+    top: 20px;
     font-size: 12pt;
     color: white;
     text-align: center;
@@ -191,21 +191,23 @@
 
 #gabinete img {
     position: relative;
-    left: 70px;
-    top: 45px;
+    left: 40%;
+    top: 20px;
+}
 }
 
 #img7 {
-    height: 270px;
+    height: 120px;
 }
 
 #gabinete-text {
     font-family: fontface;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 2340px;
+    top: 30px;
     font-size: 12pt;
     color: white;
+    text-align: center;
 }
 
 /* Mouse */
