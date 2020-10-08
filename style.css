@@ -17,6 +17,7 @@ body {
 
 #nav ul{
     display: inline-flex;
+    padding: 5px;
 }
 
 #nav ul li {
