@@ -16,8 +16,7 @@ body {
 /* Navegation */
 
 #nav ul{
-    display: flex;
-
+    display: inline-flex;
 }
 
 #nav ul li {
@@ -426,4 +425,15 @@ body {
     top: 2350px;
     font-size: 16pt;
     color: white;
+}
+
+#footer {
+    background-color: white;
+}
+
+#footer p{
+    font-family: fontface;
+    text-align: center;
+    padding: 5px;
+
 }
